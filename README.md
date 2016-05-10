@@ -28,3 +28,7 @@ If there's a specific setup you're interested in and you want to see all work do
 - __[master..vue-simple](https://github.com/chrisvfritz/rails-javascript-integrations/compare/master...vue-simple)__
 - __[master..vue-browserify](https://github.com/chrisvfritz/rails-javascript-integrations/compare/master...vue-browserify)__
 - __[master..vue-webpack](https://github.com/chrisvfritz/rails-javascript-integrations/compare/master...vue-webpack)__
+
+## Contributing
+
+If you notice a mistake, room for improvement, or have questions, issues and pull requests are very welcome. :smile:
