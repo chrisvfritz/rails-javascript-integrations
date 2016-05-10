@@ -1,0 +1,2 @@
+browserify: npm run dev
+rails: rails server
