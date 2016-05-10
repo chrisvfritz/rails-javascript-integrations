@@ -10,6 +10,8 @@ Assuming you have foreman installed (`gem install foreman`), use the development
 foreman start -f Procfile.dev
 ```
 
+Then visit `localhost:5000` to see your frontend in action.
+
 ## Pros
 
 - __Only 1 pipeline__: Sprockets is now completely out of the picture, as are any of Rails' other view-related features
