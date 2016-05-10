@@ -2,6 +2,10 @@
 
 This version uses the Rails asset pipeline with Browserify. Components are organized into `.vue` files, JS written in ES6/2015+, with a UMD module system.
 
+## Setup
+
+About 30 minutes using [vuejs-templates/browserify-simple](https://github.com/vuejs-templates/browserify-simple) as a reference.
+
 ## Usage
 
 Assuming you have foreman installed (`gem install foreman`), use the development `Procfile` to launch Rails and Browserify together:
