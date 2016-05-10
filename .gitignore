@@ -15,6 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+*.log
 
-# Ignore compiled JS files
-app/assets/javascripts/application.js
+/public

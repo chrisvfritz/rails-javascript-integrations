@@ -2,16 +2,16 @@ class TodosController < ApplicationController
   before_action :set_todo, only: [:update, :destroy]
 
   def index
-    @todos = Todo.all
+    render json: Todo.all
   end
 
   def create
-    @todo = Todo.new(todo_params)
+    todo = Todo.new(todo_params)
 
-    if @todo.save
-      render json: @todo
+    if todo.save
+      render json: todo
     else
-      render json: @todo.errors, status: :unprocessable_entity
+      render json: todo.errors, status: :unprocessable_entity
     end
   end
 
