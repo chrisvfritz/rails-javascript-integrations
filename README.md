@@ -2,6 +2,10 @@
 
 This version uses Webpack to create a completely isolated frontend that overrides `rake assets:precompile`. It provides everything you could possibly want in your development workflow.
 
+## Setup
+
+About 2 hours using [vue-cli](https://github.com/vuejs/vue-cli) with the [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) template.
+
 ## Usage
 
 Assuming you have foreman installed (`gem install foreman`), use the development `Procfile` to launch Rails and Webpack together:
