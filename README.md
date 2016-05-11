@@ -31,21 +31,21 @@ If there's a specific setup you're interested in and you want to see all work do
 
 ## FAQ
 
-### What about examples using React instead of Vue?
+### What about examples using [React instead of Vue](https://vuejs.org/guide/comparison.html#React)?
 
 I used React pretty heavily for over a year. I still do sometimes. Many companies and individual developers I work with still think of me as "the React guy". I'm grateful for React. It was instrumental in helping me understand the value of component-based UI development.
 
-Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful in most ways. It makes my applications even easier to reason about. It plays better with other DOM-manipulation libraries. It includes essential features missing in React, such as a built-in transition system. It simply makes me happier and more productive.
+Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful in most ways. It makes my applications even easier to reason about. It plays better with other DOM-manipulation libraries. It includes many essential features missing in React, such as a built-in transition system - yet maintains a smaller build size. It simply makes me happier and more productive.
 
 And in a matter of months, Vue 2.0 will leave React's _Pros_ column completely empty. I just can't recommend React in a world where Vue exists.
 
 ### What about examples using Angular 2? They use components, right?
 
-Angular 2 isn't out yet - but even despite that, the way it's engineered means that even the simplest possible integration is more complex than all but the most advanced one currently included here. And you don't get anything extra _in return for_ that complexity. In fact, you'd have a _worse_ development experience. So I don't see the point.
+Angular 2 isn't out yet - but even despite that, the way it's engineered means that even the simplest possible integration is more complex than all but the most advanced one currently included here. And you don't get anything extra in return for that complexity. In fact, you'd have a _worse_ development experience and a much larger build right from the start. So I don't see the point.
 
-Also as an aside, they have a whopping 1,461 open issues as of writing!! Over the last few months, that number has even been growing, not shrinking. At this rate, I'm not sure they'll ever release. :confused:
+Also as an aside, they have a whopping 1,461 open issues as of writing!! Over the last few months, that number has even been growing, not shrinking. At this rate, I'm not sure they'll _ever_ release. :confused:
 
-If you're just a TypeScript fan, there's good news! You can use it with Vue. [It's on DefinitelyTyped.](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/vue)
+If you're just a TypeScript fan though, there's good news! You can use it with Vue. [It's on DefinitelyTyped.](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/vue)
 
 ## Contributing
 
