@@ -1,2 +1,2 @@
-browserify: npm install && npm run dev
+browserify: npm install && npm run watchify
 rails: rails server
