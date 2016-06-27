@@ -16,5 +16,8 @@
 !/log/.keep
 /tmp
 
+# Ignore installed NPM packages
+node_modules
+
 # Ignore compiled JS files
 app/assets/javascripts/application.js
