@@ -35,9 +35,9 @@ If there's a specific setup you're interested in and you want to see all work do
 
 I used React pretty heavily for over a year. I still do sometimes. Many companies and individual developers I work with still think of me as "the React guy". I'm grateful for React. It was instrumental in helping me understand the value of component-based UI development.
 
-Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful in most ways. It makes my applications even easier to reason about. It plays better with other DOM-manipulation libraries. It includes many essential features missing in React, such as a built-in transition system - yet maintains a smaller build size. It simply makes me happier and more productive.
+Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful. It makes my applications even easier to reason about. It includes many essential features missing in React, such as a built-in transition system - yet maintains a smaller build size. It simply makes me happier and more productive. 
 
-And in a matter of months, Vue 2.0 will leave React's _Pros_ column completely empty. I just can't recommend React in a world where Vue exists.
+Try it - it might do the same for you. You can seriously learn the essentials and be building non-trivial applications in less than a day.
 
 ### What about examples using Angular 2? They use components, right?
 
