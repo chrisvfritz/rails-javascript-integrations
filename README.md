@@ -1,5 +1,7 @@
 # Rails JavaScript Integration Strategies
 
+> NOTE: This is more up-to-date than the last commit date would indicate, as most of the interesting work is not on the `master` branch.
+
 ## Why this?
 
 Componentized views make UI development orders of magnitude simpler. Unfortunately, scaling UI development and integrating a modern JavaScript workflow into a new or existing Rails app can be tricky.
@@ -35,7 +37,7 @@ If there's a specific setup you're interested in and you want to see all work do
 
 I used React pretty heavily for over a year. I still do sometimes. Many companies and individual developers I work with still think of me as "the React guy". I'm grateful for React. It was instrumental in helping me understand the value of component-based UI development.
 
-Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful. It makes my applications even easier to reason about. It includes many essential features missing in React, such as a built-in transition system - yet maintains a smaller build size. It simply makes me happier and more productive. 
+Please consider this when I say that almost everything React does, Vue does better. It's both simpler _and_ more powerful. It makes my applications even easier to reason about. It includes many essential features missing in React, such as a built-in transition system - yet maintains a smaller build size. It simply makes me happier and more productive.
 
 Try it - it might do the same for you. You can seriously learn the essentials and be building non-trivial applications in less than a day.
 
