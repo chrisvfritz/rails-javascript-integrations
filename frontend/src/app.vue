@@ -6,7 +6,7 @@
         <todo-list></todo-list>
       </div>
       <div class="col-sm-6">
-        <img src="assets/logo.png" alt="Vue logo">
+        <img src="./assets/logo.png" alt="Vue logo">
       </div>
     </div>
   </div>
@@ -23,18 +23,17 @@ export default {
 </script>
 
 <style lang="scss">
-  // -------------------
-  // BOOTSTRAP VARIABLES
-  // http://getbootstrap.com/customize/#less-variables
-  // -------------------
+// -------------------
+// BOOTSTRAP VARIABLES
+// http://getbootstrap.com/customize/#less-variables
+// -------------------
 
-  // ...
+// ...
 
-  // ---------
-  // BOOTSTRAP
-  // ---------
+// ---------
+// BOOTSTRAP
+// ---------
 
-  $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-  @import '~bootstrap-sass/assets/stylesheets/bootstrap';
-
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
 </style>
