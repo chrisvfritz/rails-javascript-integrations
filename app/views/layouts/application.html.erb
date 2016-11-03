@@ -3,12 +3,13 @@
 <head>
   <title>JavascriptIntegration</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'https://cdn.jsdelivr.net/vue/latest/vue.js' %>
+  <%= javascript_include_tag 'https://unpkg.com/vue/dist/vue.js' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <%= yield %>
+  <div id="app">
+    <%= yield %>
+  </div>
 
   <%= javascript_include_tag 'application' %>
 </body>

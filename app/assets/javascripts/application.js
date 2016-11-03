@@ -14,4 +14,4 @@
 //= require jquery_ujs
 //= require_tree .
 
-new Vue({ el: 'body' })
+new Vue({ el: '#app' })
