@@ -4,10 +4,12 @@
   <title>JavascriptIntegration</title>
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= csrf_meta_tags %>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 </head>
 <body>
-
-  <%= yield %>
+  <div id="app">
+    <%= yield %>
+  </div>
 
   <%= javascript_include_tag 'application' %>
 </body>
