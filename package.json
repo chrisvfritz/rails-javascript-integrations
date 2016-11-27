@@ -6,7 +6,7 @@
     "watchify": "watchify -vd -p browserify-hmr -e frontend/application.js -o app/assets/javascripts/application.js",
     "serve": "./bin/rails server",
     "dev": "npm-run-all --parallel watchify serve",
-    "build": "cross-env NODE_ENV=production browserify -g envify rontend/application.js | uglifyjs -c warnings=false -m > app/assets/javascripts/application.js"
+    "build": "cross-env NODE_ENV=production browserify -g envify frontend/application.js | uglifyjs -c warnings=false -m > app/assets/javascripts/application.js"
   },
   "dependencies": {
     "axios": "^0.15.2",
