@@ -31,20 +31,6 @@ If there's a specific setup you're interested in and you want to see all work do
 - __[master..vue-browserify](https://github.com/chrisvfritz/rails-javascript-integrations/compare/master...vue-browserify)__
 - __[master..vue-webpack](https://github.com/chrisvfritz/rails-javascript-integrations/compare/master...vue-webpack)__
 
-## FAQ
-
-### What about examples using [React instead of Vue](https://vuejs.org/guide/comparison.html#React)?
-
-I've used React pretty heavily for over 2 years. I still do sometimes. Many companies and individual developers I work with still think of me as "the React guy". I'm grateful for React. It was instrumental in helping me understand the value of component-based UI development.
-
-Please consider this when I say Vue makes me happier and more productive in every scenario. Try it - it might do the same for you. [The docs](https://vuejs.org/guide/index.html) are so good that you can learn the essentials and be building non-trivial applications in less than a day.
-
-### What about examples using Angular 2? They use components, right?
-
-The way Angular 2 is engineered, even the simplest possible integration would be more complex than all but the most advanced one currently included here. I've also never met anyone who's worked with both Vue 2 and Angular 2, then preferred Angular.
-
-If you're just a TypeScript fan though, there's good news! Vue offers [officially supported type definitions](https://github.com/vuejs/vue/tree/dev/types) and [a component decorator](https://github.com/vuejs/vue-class-component).
-
 ## Contributing
 
 If you notice a mistake, room for improvement, or have questions, issues and pull requests are very welcome. :smile:
